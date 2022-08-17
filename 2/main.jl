@@ -1,13 +1,13 @@
 function e(x)
   termo = 1
   soma = 1
-  i = 1
+  n = 1
   while termo > 0
-    termo = termo * (x/i)
+    termo = termo * (x/n)
     soma = soma + termo
-    i = i + 1
+    n = n + 1
   end
-  return [soma i]
+  return [soma n]
 end
 
 y = e(1)
