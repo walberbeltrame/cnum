@@ -1,3 +1,5 @@
+using .MathConstants:e
+
 function bisection(a,b,f,error)
   x = (a+b)/2
   while abs(f(x)) > error
@@ -18,7 +20,7 @@ r = bisection(0, 1, f, error)
 println(r)
 
 # Exercicio 3.2.2
-f(x) = 5*sin(x^2) - MathConstants.e^(x/10)
+f(x) = 5*sin(x^2) - e^(x/10)
 error = 10^-5
 r = bisection(0.4, 0.5, f, error)
 println(r)
@@ -32,7 +34,7 @@ Ir = 10^-12
 T = 300
 k = 1.380649*(10^-23)
 q = 1.60217663*(10^-19)
-I(x) = Ir*(MathConstants.e^((x*q)/(k*T)) - 1)
+I(x) = Ir*(e^((x*q)/(k*T)) - 1)
 g(x,V,R) = R*I(x) + x - V
 error = 10^-3
 # ((10^-12)*(e^((x*(1.60217663*10^-19))/((1.380649*10^-23)*(300)))-1))+x-30
