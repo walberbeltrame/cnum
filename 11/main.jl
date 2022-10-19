@@ -93,7 +93,7 @@ B = [0.0 ; 1.05 ; 1.83 ; 2.69 ; 3.83 ; 4.56 ; 5.49 ; 6.56 ; 6.11 ; 7.06 ; 8.29]
 
 a = A\B
 f(x) = a[1]*x + a[3]*x^3
-r = dc(f,1.0,0.5)
+r = derivative(f,1.0)
 println(r)
-r = dc(f,4.5,0.5)
+r = derivative(f,4.5)
 println(r)
