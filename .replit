@@ -1,0 +1,8 @@
+entrypoint = "main.jl"
+
+[interpreter]
+command = ["julia", "-i", "--banner=no"]
+prompt = [106, 117, 108, 105, 97, 62]
+
+[nix]
+channel = "stable-22_11"
