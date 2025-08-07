@@ -225,3 +225,11 @@ def main():
     ...
     plot(35)
 ```
+
+Submeta a branch para o servidor:
+
+```bash
+git add .
+git commit -m "Semana 2"
+git push origin semana2
+```
