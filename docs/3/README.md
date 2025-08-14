@@ -1,18 +1,16 @@
+# Atividade 1
+
 Crie uma nova branch (versão) do repositório:
 
 ```bash
-git branch semana2
+git branch semana3
 ```
 
 Faça o checkout nessa nova branch:
 
 ```bash
-git checkout semana2
+git checkout semana3
 ```
-
-<br/>
-
-# Atividade 1
 
 A função exponencial natural pode ser definida pelo limite:
 $$
@@ -153,3 +151,13 @@ Usando `decimal` ou `mpmath`, compute $e^x$ em alta precisão e compare com o re
 Analise:
 - perda de dígitos significativos;
 - quando o `float64` começa a saturar por overflow.
+
+<br/>
+
+Submeta a branch para o servidor:
+
+```bash
+git add .
+git commit -m "Semana 3"
+git push origin semana3
+```
