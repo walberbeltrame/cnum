@@ -1,4 +1,5 @@
-# Atividade 1
+# 3 - Erro com pontos flutuantes
+Vamos aprender sobre como usar os erros de ponto flutuante para resolução de problemas numéricos.
 
 Crie uma nova branch (versão) do repositório:
 
@@ -12,6 +13,9 @@ Faça o checkout nessa nova branch:
 git checkout semana3
 ```
 
+<br/>
+
+## Atividade 1
 A função exponencial natural pode ser definida pelo limite:
 $$
 e^x=\lim_{n\to\infty}\left(1+\frac{x}{n}\right)^n,
@@ -56,7 +60,7 @@ for val in [1.0, 5.0, -2.0]:
 
 <br/>
 
-# Atividade 2
+## Atividade 2
 
 Implemente:
 $$
@@ -68,7 +72,7 @@ com $n$ crescente, e:
 
 <br/>
 
-# Atividade 3
+## Atividade 3
 
 Para $|x|$ grande, use:
 $$
@@ -103,7 +107,7 @@ for val in [10.0, -20.0]:
 
 <br/>
 
-# Atividade 4
+## Atividade 4
 
 Use:
 $$
@@ -117,7 +121,7 @@ Defina um critério de parada baseado em `epsilon` e compare o erro relativo par
 
 <br/>
 
-# Atividade 5
+## Atividade 5
 
 Dado $x$ e uma tolerância $\tau$, encontre o menor $N$ tal que:
 $$
@@ -145,7 +149,7 @@ for x in [1, 3, 10]:
 
 <br/>
 
-# Atividade 6
+## Atividade 6
 
 Usando `decimal` ou `mpmath`, compute $e^x$ em alta precisão e compare com o resultado de `float64` (Ex. 1) para $x\in\{20, 40, 50\}$.
 Analise:

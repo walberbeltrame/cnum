@@ -1,4 +1,5 @@
-Faça na linguagem Python uma função que calcula as raízes da equação do segundo grau.
+# 1 - Introdução ao ambiente de programação
+Vamos aprender sobre os elementos básicos da linguagem Python.
 
 Crie uma nova branch (versão) do repositório:
 
@@ -11,6 +12,11 @@ Faça o checkout nessa nova branch:
 ```bash
 git checkout semana1
 ```
+<br />
+
+## Atividade 1
+
+Faça na linguagem Python uma função que calcula as raízes da equação do segundo grau.
 
 Serão passados os coeficientes a, b e c. Caso a = 0, resolva como uma equação do primeiro grau, e se b = 0 gere uma exceção.
 
