@@ -1,7 +1,5 @@
-# Atividade 1
-Faça na linguagem Python uma função que verifica se um número é perfeito.
-
-Um número é perfeito se a soma dos divisores for igual a ele mesmo (ex: 6 = 1 + 2 + 3).
+# 2 - Estruturas da linguagem de programação
+Vamos aprender sobre estruturas de controle, instalação de bibliotecas e geração de gráficos, por meio de atividades práticas.
 
 A partir de agora, vamos usar um ambiente virtual para execução dos nossos códigos.
 
@@ -30,6 +28,13 @@ Faça o checkout nessa nova branch:
 git checkout semana2
 ```
 
+<br/>
+
+## Atividade 1
+Faça na linguagem Python uma função que verifica se um número é perfeito.
+
+Um número é perfeito se a soma dos divisores for igual a ele mesmo (ex: 6 = 1 + 2 + 3).
+
 Gabarito:
 
 ```python
@@ -57,7 +62,7 @@ if __name__ == "__main__":
 
 <br/>
 
-# Atividade 2
+## Atividade 2
 Faça na linguagem Python uma função que calcula o fatorial de um número.
 
 O fatorial de um número é o produto do número por todos os antecessores positivos.
@@ -95,7 +100,7 @@ def main():
 
 <br/>
 
-# Atividade 3
+## Atividade 3
 Faça na linguagem Python uma função que verifica se um número é primo.
 
 Um número que só pode ser dividido por um e por ele mesmo.
@@ -114,7 +119,7 @@ Adicione o teste para o main:
 
 <br/>
 
-# Atividade 4
+## Atividade 4
 Faça na linguagem Python uma função que calcula a soma dos dígitos.
 
 Caso número negativo, dispare uma mensagem de erro (ex: 123, 1 + 2 + 3 = 6).
@@ -136,7 +141,7 @@ Adicione o teste para o main:
 
 <br/>
 
-# Atividade 5
+## Atividade 5
 Instale e importe a biblioteca NumPy, que é fundamental para computação científica em Python, oferecendo suporte para arrays e matrizes multidimensionais, além de uma vasta coleção de funções matemáticas de alto nível para operar eficientemente. Para instalar, utilize o comando:
 
 ```bash
@@ -184,7 +189,7 @@ def main():
 
 <br/>
 
-# Atividade 6
+## Atividade 6
 Instale e importe a biblioteca Matplotlib, especializada na confecção de gráficos. Para instalar, utilize o comando:
 
 ```bash
