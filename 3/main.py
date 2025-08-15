@@ -71,7 +71,7 @@ def cos_series(x, rtol=1e-15, atol=0.0):
             break
         s = s_new
         n += 1
-        if n > 10000:  # segurança
+        if n > 10_000:  # segurança
             break
     return s, n
 
@@ -82,7 +82,7 @@ def min_terms_for_tol(x, tol=1e-12):
     while term > tol:
         n += 1
         term *= abs(x) / n
-        if n > 100000:
+        if n > 100_000:
             break
     return n
 
@@ -108,7 +108,7 @@ def exp_decimal(x, prec=80):
             s = s_new
             break
         s = s_new
-        if n > 20000:
+        if n > 20_000:
             break
     return +s  # aplica arredondamento do contexto
 
@@ -132,29 +132,36 @@ def compare_float_vs_highprecision(xs=(20, 40, 50), prec=80):
 
 def main():
     # Atividade 1
+    print("-- Atividade 1 --")
     for val in [1.0, 5.0, -2.0]:
         approx, nterms, last = exp_series(val)
         print(
             f"x={val:+g} -> e^x ≈ {approx:.16g} (math.exp={math.exp(val):.16g}, termos={nterms})"
         )
     # Atividade 2
+    print("-- Atividade 2 --")
     for val in [1.0, 5.0, -2.0]:
         y, n = exp_limit(val)
         print(val, y, math.exp(val), n)
     # Atividade 3
+    print("-- Atividade 3 --")
     for val in [10.0, -20.0]:
         y, k, n = exp_series_scaling(val, theta=1.0)
         print(
             f"x={val:+g} -> e^x ≈ {y:.6e} (math.exp={math.exp(val):.6e})  [k={k}, termos série(m)={n}]"
         )
     # Atividade 4
+    print("-- Atividade 4 --")
     xs = [-20 + 40 * i / 199 for i in range(200)]
     errs = [abs(cos_series(x)[0] - math.cos(x)) for x in xs]
+    print(f"xs={xs[:10]}\nerrs={errs[:10]}...")
     # Atividade 5
+    print("-- Atividade 5 --")
     for x in [1, 3, 10]:
         n = min_terms_for_tol(x, 1e-12)
         print(f"x={x}: ~{n} termos para atingir tol=1e-12")
     # Atividade 6
+    print("-- Atividade 6 --")
     for r in compare_float_vs_highprecision((20, 40, 50), prec=80):
         print(f"x={r[0]}  high-prec={r[1][:18]}...  float64={r[2]}  erro_rel={r[3]}")
 
