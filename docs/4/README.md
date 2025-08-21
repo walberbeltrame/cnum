@@ -189,7 +189,7 @@ A flecha ($f$) depende do comprimento do vão ($d$) e da tração ($C'$) aplicad
 
 O seu modelo matemático pode ser:
 
-$ f = C \left[ \cosh\!\left(\tfrac{d}{2C}\right) - 1 \right] \quad (4.8) $
+$ f = C \left[ \cosh\!\left(\tfrac{d}{2C}\right) - 1 \right] \quad $
 
 **Resposta:** $633,1621 \, m$
 
@@ -202,7 +202,7 @@ Encontre o ângulo $\beta$ para o qual a corrente $I_d$ no diodo se anula.
 
 Considere o seguinte modelo matemático:
 
-$ I_d = \sin(\beta - \phi) + \sin(\phi)e^{-\tfrac{\beta}{\tan(\phi)}} \quad (4.9) $
+$ I_d = \sin(\beta - \phi) + \sin(\phi)e^{-\tfrac{\beta}{\tan(\phi)}} \quad $
 
 com  
 
