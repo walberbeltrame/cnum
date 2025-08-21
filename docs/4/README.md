@@ -138,7 +138,7 @@ O desenho abaixo mostra um circuito não linear envolvendo uma fonte de tensão 
 
 Sabendo que a relação entre a corrente ($I_d$) e a tensão ($v_d$) no diodo é dada pela seguinte expressão:
 
-$ I_d = I_R \left( \exp\!\left(\tfrac{v_d}{v_t}\right) - 1 \right) $
+$ I_d = I_R \left( \exp\left(\tfrac{v_d}{v_t}\right) - 1 \right) $
 
 onde $I_R$ é a corrente de condução reversa e $v_t$ a tensão térmica, dada por  
 
