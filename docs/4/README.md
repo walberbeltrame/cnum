@@ -81,7 +81,7 @@ def plot(f, number=1):
     plt.close()
 
 def main():
-     # Atividade 1
+    # Atividade 1
     print("-- Atividade 1 --")
     plot(f1, 1)
     r, i = bissecao(f1, 2, 3, 1e-15)
