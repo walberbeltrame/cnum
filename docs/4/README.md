@@ -24,7 +24,7 @@ Crie os arquivos da atividade de modo separado.
 │   └─ main.py
 ```
 
-Escreva o método da bisseção dentro de outro arquivo de algoritmos.
+Escreva o método da bisseção dentro do arquivo de algoritmos.
 
 ```python
 def bissecao(f,     # função que queremos encontrar a raiz
