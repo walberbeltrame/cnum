@@ -107,7 +107,7 @@ $$
 \sqrt{x} = \cos(x).
 $$  
 
-Use o método da bissecção com intervalo inicial obtido por gráfico para calcular a aproximação com precisão de $10^{-4}$.
+Use o método da bisseção com intervalo inicial obtido por gráfico (entre 0 e 1) para calcular um valor aproximado com precisão de $10^{-4}$ para no máximo 4 iterações.
 
 **Resposta:**  
 $
@@ -123,7 +123,7 @@ $$
 f(x) = 5\sin(x^2) - \exp\!\left(\frac{x}{10}\right)
 $$  
 
-em intervalos de comprimento $(0.1)$. Então, use o método da bissecção para obter aproximações dos zeros com precisão de $10^{-5}$.  
+em intervalos de comprimento $(0.1)$. Então, use o método da bisseção para obter aproximações dos zeros com precisão de $10^{-5}$.  
 
 **Resposta:**  
 
@@ -148,7 +148,7 @@ com $k$ a constante de Boltzmann, $T$ a temperatura de operação e $q$ a carga 
 
 Aqui, $I_R = 1\,pA = 10^{-12}\,A$, $T = 300\,K$.  
 
-Escreva o problema como uma equação na incógnita $v_d$, usando o método da bissecção, e resolva-o com **3 algarismos significativos** para os seguintes casos:
+Escreva o problema como uma equação na incógnita $v_d$, usando o método da bisseção, e resolva-o com **3 algarismos significativos** para os seguintes casos:
 
 - $V = 30 \, V$ e $R = 1 \, k\Omega$  
 - $V = 3 \, V$ e $R = 1 \, k\Omega$  
