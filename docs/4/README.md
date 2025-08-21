@@ -16,13 +16,15 @@ git checkout semana4
 <br/>
 
 ## Atividade 1
-Escreva o método da bisseção dentro de outro arquivo de algoritmos.
+Crie os arquivos da atividade de modo separado.
 
 ```txt
 ├─ /
 │   └─ algoritmos.py
 │   └─ main.py
 ```
+
+Escreva o método da bisseção dentro de outro arquivo de algoritmos.
 
 ```python
 def bissecao(f,     # função que queremos encontrar a raiz
