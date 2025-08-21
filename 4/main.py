@@ -35,7 +35,7 @@ def main():
     # Atividade 2
     print("-- Atividade 2 --")
     plot(f2, 0, 1, num_img=2)
-    r, i = bissecao(f2, 0, 1, 1e-15)
+    r, i = bissecao(f2, 0, 1, 1e-4, iter=4)
     print(f"raiz = {r} , i = {i}")
 
 if __name__ == "__main__":
