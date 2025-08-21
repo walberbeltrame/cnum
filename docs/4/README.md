@@ -107,11 +107,11 @@ $$
 \sqrt{x} = \cos(x).
 $$  
 
-Use o método da bissecção com intervalo inicial obtido por gráfico para calcular a aproximação $x^{(4)}$ da solução desta equação.
+Use o método da bissecção com intervalo inicial obtido por gráfico para calcular a aproximação com precisão de $10^{-4}$.
 
 **Resposta:**  
 $
-x^{(4)} = 0.6875
+x \approx 0.6875
 $ 
 
 <br/>
