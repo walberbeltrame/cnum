@@ -19,7 +19,7 @@ git checkout semana4
 Escreva o método da bisseção dentro da pasta algoritmos (bissecao.py).
 
 ```python
-def bisseccao(f,     # função que queremos encontrar a raiz
+def bissecao(f,     # função que queremos encontrar a raiz
               a,    # a início do intervalo
               b,    # b fim do intervalo
               TOL,   # erro tolerado
@@ -84,7 +84,7 @@ def main():
      # Atividade 1
     print("-- Atividade 1 --")
     plot(f1, 1)
-    r, i = bisseccao(f1, 2, 3, 1e-15)
+    r, i = bissecao(f1, 2, 3, 1e-15)
     print(f"raiz = {r} , i = {i}")
 
 if __name__ == "__main__":
