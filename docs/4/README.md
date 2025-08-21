@@ -166,11 +166,11 @@ A equação do circuito é:
 $ V = R I_d + v_d $
 
 **Resposta:**  
-a) $0{,}623$  
-b) $0{,}559$  
-c) $0{,}500$  
-d) $0{,}300$  
-e) $-0{,}300$  
+a) $0.623$  
+b) $0.559$  
+c) $0.500$  
+d) $0.300$  
+e) $-0.300$  
 f) $-30$  
 g) $-30$
 
@@ -191,7 +191,7 @@ O seu modelo matemático pode ser:
 
 $ f = C \left[ \cosh\!\left(\tfrac{d}{2C}\right) - 1 \right] \quad $
 
-**Resposta:** $633,1621 \, m$
+**Resposta:** $633.1621 \, m$
 
 <br/>
 
@@ -208,4 +208,4 @@ com
 
 $ \tan(\phi) = \tfrac{2\pi f L}{R} $
 
-**Resposta:** $\beta = 212,2284^\circ$
+**Resposta:** $\beta = 212.2284^\circ$
