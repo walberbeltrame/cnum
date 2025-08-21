@@ -64,7 +64,7 @@ import ..algoritmos.bissecao
 def f1(x):
     return x**3 - x - 2
 
-def plot(f, number=1)
+def plot(f, number=1):
     # Intervalo para plotar
     x_vals = np.linspace(-10, 10, 400)
     y_vals = f(x_vals)
