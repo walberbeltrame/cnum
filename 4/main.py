@@ -11,6 +11,10 @@ def f1(x):
 def f2(x):
     return x**(1/2) - np.cos(x)
 
+# Função da Atividade3
+def f3(x):
+    return (5*np.sin(x**2)) - (np.exp(x/10))
+
 def plot(f, xi, xf, d=0.1, num_img=1):
     # Intervalo para plotar
     x_vals = np.arange(xi, xf, d)
@@ -37,6 +41,15 @@ def main():
     plot(f2, 0, 1, num_img=2)
     r, i = bissecao(f2, 0, 1, 1e-4, iter=4)
     print(f"raiz = {r} , i = {i}")
+    # Atividade 3
+    print("-- Atividade 3 --")
+    plot(f3, 0, 3, num_img=3)
+    r, i = bissecao(f3, 0.4, 0.5, 1e-5)
+    print(f"raiz = {r:.5} , i = {i}")
+    r, i = bissecao(f3, 1.7, 1.8, 1e-5)
+    print(f"raiz = {r:.5} , i = {i}")
+    r, i = bissecao(f3, 2.5, 2.6, 1e-5)
+    print(f"raiz = {r:.5} , i = {i}")
 
 if __name__ == "__main__":
     main()
