@@ -16,7 +16,12 @@ git checkout semana4
 <br/>
 
 ## Atividade 1
-Escreva o método da bisseção dentro da pasta algoritmos (bissecao.py).
+Escreva o método da bisseção dentro da subpasta algoritmos.
+
+```txt
+├─ algoritmos/
+│   └─ calculo.py
+```
 
 ```python
 def bissecao(f,     # função que queremos encontrar a raiz
@@ -44,7 +49,7 @@ def bissecao(f,     # função que queremos encontrar a raiz
         return c, i
 ```
 
-Na pasta da semana, crie um arquivo main que importe e teste a função:  
+No arquivo principal, importe e teste a função:  
 
 $$
 f(x) = x^3 - x - 2
@@ -58,7 +63,7 @@ Gabarito.
 import numpy as np
 import matplotlib.pyplot as plt
 
-import ..algoritmos.bissecao
+from algoritmos.calculo import bissecao
 
 # Definição da função
 def f1(x):
@@ -84,7 +89,7 @@ def main():
     # Atividade 1
     print("-- Atividade 1 --")
     plot(f1, 1)
-    r, i = bissecao(f1, 2, 3, 1e-15)
+    r, i = bissecao(f1, 1, 3, 1e-15)
     print(f"raiz = {r} , i = {i}")
 
 if __name__ == "__main__":
