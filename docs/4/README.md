@@ -16,11 +16,12 @@ git checkout semana4
 <br/>
 
 ## Atividade 1
-Escreva o método da bisseção dentro da subpasta algoritmos.
+Escreva o método da bisseção dentro de outro arquivo de algoritmos.
 
 ```txt
-├─ algoritmos/
-│   └─ calculo.py
+├─ /
+│   └─ algoritmos.py
+│   └─ main.py
 ```
 
 ```python
@@ -63,7 +64,7 @@ Gabarito.
 import numpy as np
 import matplotlib.pyplot as plt
 
-from algoritmos.calculo import bissecao
+from algoritmos import bissecao
 
 # Definição da função
 def f1(x):
@@ -71,14 +72,13 @@ def f1(x):
 
 def plot(f, number=1):
     # Intervalo para plotar
-    x_vals = np.linspace(-10, 10, 400)
+    x_vals = np.arange(-2, 3, 0.1)
     y_vals = f(x_vals)
 
     plt.axhline(0, color="black", linewidth=1)  # eixo x
     plt.axvline(0, color="black", linewidth=1)  # eixo y
     plt.plot(x_vals, y_vals)
     plt.grid(True)
-    plt.legend()
     plt.title("Visualização da função f(x)")
 
     # Salvar gráfico como imagem
@@ -89,7 +89,7 @@ def main():
     # Atividade 1
     print("-- Atividade 1 --")
     plot(f1, 1)
-    r, i = bissecao(f1, 1, 3, 1e-15)
+    r, i = bissecao(f1, 1, 2, 1e-15)
     print(f"raiz = {r} , i = {i}")
 
 if __name__ == "__main__":
