@@ -3,17 +3,31 @@ import matplotlib.pyplot as plt
 
 from algoritmos import bissecao
 
+
 # Função da Atividade1
 def f1(x):
     return x**3 - x - 2
 
+
 # Função da Atividade2
 def f2(x):
-    return x**(1/2) - np.cos(x)
+    return x ** (1 / 2) - np.cos(x)
+
 
 # Função da Atividade3
 def f3(x):
-    return (5*np.sin(x**2)) - (np.exp(x/10))
+    return (5 * np.sin(x**2)) - (np.exp(x / 10))
+
+
+# Função da Atividade4
+def f4(x, V, R):
+    IR = 1e-12  # corrente de saturação (A)
+    T = 300.0  # temperatura (K)
+    k = 1.38064852e-23  # constante de Boltzmann (J/K)
+    q = 1.60217662e-19  # carga do elétron (C)
+    vt = k * T / q  # tensão térmica (V)
+    return R * IR * (np.exp(x / vt) - 1) + x - V
+
 
 def plot(f, xi, xf, d=0.1, num_img=1):
     # Intervalo para plotar
@@ -29,6 +43,7 @@ def plot(f, xi, xf, d=0.1, num_img=1):
     # Salvar gráfico como imagem
     plt.savefig(f"4/bissecao_{num_img}.png", dpi=120, bbox_inches="tight")
     plt.close()
+
 
 def main():
     # Atividade 1
@@ -50,6 +65,27 @@ def main():
     print(f"raiz = {r:.5} , i = {i}")
     r, i = bissecao(f3, 2.5, 2.6, 1e-5)
     print(f"raiz = {r:.5} , i = {i}")
+    # Atividade 4
+    print("-- Atividade 4 --")
+    f4_vr = lambda x: f4(x, 30, 1e3)
+    plot(f4_vr, 0, 1, num_img=4)
+    VRs = [
+        (30, 1e3, 0, 1),
+        (3, 1e3, 0, 1),
+        (3, 1e4, 0, 1),
+        (0.3, 1e3, 0, 0.5),
+        (-0.3, 1e3, -1, 0),
+        (-30, 1e3, -40, 0),
+        (-30, 1e4, -40, 0),
+    ]
+    for V, R, a, b in VRs:
+        try:
+            f4_vrs = lambda x: f4(x, V, R)
+            r, i = bissecao(f4_vrs, a, b, 1e-8)
+            print(f"V={V} V, R={R/1e3:.0f}kΩ --> vd = {r:.3f} V")
+        except ValueError as error:
+            print(f"V={V} V, R={R/1e3:.0f}kΩ --> {error}")
+
 
 if __name__ == "__main__":
     main()
