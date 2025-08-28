@@ -189,7 +189,7 @@ A flecha ($f$) depende do comprimento do vão ($d$) e da tração ($C'$) aplicad
 
 O seu modelo matemático pode ser:
 
-$ f = C \left[ \cosh\!\left(\tfrac{d}{2C}\right) - 1 \right] \quad $
+$ f = C \left[ \cosh\left(\tfrac{d}{2C}\right) - 1 \right] \quad $
 
 **Resposta:** $633.1621 \, m$
 
