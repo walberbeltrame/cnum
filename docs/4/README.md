@@ -185,7 +185,7 @@ A flecha máxima permitida é $f_{max} = 50 \, m$.
 
 Flecha é a distância vertical entre uma reta que liga os dois pontos de fixação.  
 
-A flecha ($f$) depende do comprimento do vão ($d$) e da tração ($C'$) aplicada ao cabo.  
+A flecha ($f$) depende do comprimento do vão ($d$) e da tração ($C$) aplicada ao cabo.  
 
 O seu modelo matemático pode ser:
 
