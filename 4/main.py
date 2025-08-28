@@ -28,6 +28,21 @@ def f4(x, V, R):
     vt = k * T / q  # tensão térmica (V)
     return R * IR * (np.exp(x / vt) - 1) + x - V
 
+# Função da Atividade5
+def f5(x):
+    d = 500
+    fmax = 50
+    return (x*(np.cosh(d/(2*x))-1)) - fmax
+
+# Função da Atividade6
+def f6(x):
+    F = 1e3
+    L = 100e-3
+    R = 1e3
+    T = 2 * np.pi * F * L / R
+    A = np.atan(T)
+    return np.sin(x - A) + np.sin(A) * np.exp(-x / T)
+
 
 def plot(f, xi, xf, d=0.1, num_img=1):
     # Intervalo para plotar
@@ -85,7 +100,19 @@ def main():
             print(f"V={V} V, R={R/1e3:.0f}kΩ --> vd = {r:.3f} V")
         except ValueError as error:
             print(f"V={V} V, R={R/1e3:.0f}kΩ --> {error}")
-
+    # Atividade 5
+    print("-- Atividade 5 --")
+    plot(f5, 550, 650, num_img=5)
+    r, i = bissecao(f5, 550, 650, 1e-4, iter=1e2)
+    print(f"raiz = {r:.4} , i = {i}")
+    # Atividade 6
+    print("-- Atividade 6 --")
+    a = 212 * np.pi / 180
+    b = 213 * np.pi / 180
+    plot(f6, a, b, d=0.01,num_img=6)
+    r, i = bissecao(f6, a, b, 1e-4, iter=1e2)
+    r_deg = r * 180 / np.pi
+    print(f"raiz = {r_deg:.4} , i = {i}")
 
 if __name__ == "__main__":
     main()
