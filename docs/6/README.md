@@ -267,23 +267,23 @@ Resolva esse problema quando $V = 127$ e:
 Sistema de equações:
 
 $$
-V_1 = V \tag{4.304}
+V_1 = V
 $$
 
 $$
-\frac{V_1 - V_2}{R_1} + \frac{V_5 - V_2}{R_2} - \frac{V_2}{R_5} = 0 \tag{4.305}
+\frac{V_1 - V_2}{R_1} + \frac{V_5 - V_2}{R_2} - \frac{V_2}{R_5} = 0
 $$
 
 $$
-\frac{V_2 - V_3}{R_2} + \frac{V_4 - V_3}{R_3} - \frac{V_3}{R_6} = 0 \tag{4.306}
+\frac{V_2 - V_3}{R_2} + \frac{V_4 - V_3}{R_3} - \frac{V_3}{R_6} = 0
 $$
 
 $$
-\frac{V_3 - V_4}{R_3} + \frac{V_5 - V_4}{R_4} - \frac{V_4}{R_7} = 0 \tag{4.307}
+\frac{V_3 - V_4}{R_3} + \frac{V_5 - V_4}{R_4} - \frac{V_4}{R_7} = 0
 $$
 
 $$
-\frac{V_4 - V_5}{R_4} - \frac{V_5}{R_8} = 0 \tag{4.308}
+\frac{V_4 - V_5}{R_4} - \frac{V_5}{R_8} = 0
 $$
 
 ![Circuito](https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/main11x.png)
