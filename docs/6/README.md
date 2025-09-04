@@ -1,4 +1,4 @@
-# 5 - Métodos de Gauss
+# 6 - Métodos de Gauss
 Vamos aprender sobre como usar os métodos de Gauss para resolução de sistemas lineares quadráticos.
 
 Crie uma nova branch (versão) do repositório:
