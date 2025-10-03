@@ -1,4 +1,4 @@
-# 1 - Introdução ao ambiente de programação
+# 1 - Ambiente de programação
 Vamos aprender sobre os elementos básicos da linguagem Python.
 
 Crie uma nova branch (versão) do repositório:
