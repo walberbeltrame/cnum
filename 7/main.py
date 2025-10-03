@@ -54,8 +54,8 @@ def main():
         x1, x2, x3 = x
         return np.array([
             [6.0,            -2.0,             np.exp(x3)],
-            [-np.cos(x1),    -1.0,             1.0],
-            [-np.cos(x1),     2.0,             3.0]
+            [np.cos(x1),    -1.0,             1.0],
+            [np.cos(x1),     2.0,             3.0]
         ], dtype=float)
 
     x = np.array([0.0, 0.0, 0.0], dtype=float)
