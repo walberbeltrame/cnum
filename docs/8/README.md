@@ -13,6 +13,14 @@ Faça o checkout nessa nova branch:
 git checkout semana8
 ```
 
+Crie os arquivos da atividade de modo separado.
+
+```txt
+├─ /
+│   └─ algoritmos.py
+│   └─ main.py
+```
+
 <br/>
 
 ## Atividade 1
