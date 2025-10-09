@@ -37,6 +37,7 @@ Determine a temperatura mínima da placa, dada a medição da irradiação e da 
 
 **Sugestão:** usar métodos da bissecção ou ponto fixo.  
 **Resposta aproximada:**  
+
 $$
 T = 304{,}56801011987010952
 $$
@@ -62,7 +63,8 @@ $$
 Calcular as tensões nominais de cada reator.
 
 **Sugestão:** usar o método de Gauss-Seidel.  
-**Resposta aproximada:**
+**Resposta aproximada:**  
+
 $$
 R_1 = 33{,}996314
 $$  
@@ -109,7 +111,8 @@ $$
 
 **Sugestão:** usar o método de Gauss-Seidel.
 
-**Resposta aproximada:**
+**Resposta aproximada:**  
+
 $$
 I_{R3} = 6{,}6667\,A
 $$
@@ -133,7 +136,8 @@ Calcule o valor aproximado das temperaturas de equilíbrio, sabendo que os valor
 $E_1 = 0,01753$ e $E_2 = 0,00254$.
 
 **Sugestão:** usar o método de Newton-Raphson.  
-**Resposta aproximada:**
+**Resposta aproximada:**  
+
 $$
 T_1 = 0,30543
 $$  
