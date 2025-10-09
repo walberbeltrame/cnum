@@ -1,4 +1,4 @@
-# 8 - Primeira avaliação
+# 8 - Primeiro trabalho
 Em dupla ou trio, faça de acordo com a especificação do trabalho, usando os conceitos de método da bisseção, métodos de ponto fixo, métodos de Gauss e resolução de sistemas não lineares.
 
 Crie uma nova branch (versão) do repositório:
