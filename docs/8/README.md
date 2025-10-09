@@ -49,13 +49,15 @@ com tensão nominal $R$ em função da potência máxima $P$ de operação dos e
 
 $$
 17R_1 + 2R_2 - 3R_3 = P_1 = 500
-$$
+$$  
+
 $$
 -5R_1 + 21R_2 - 7R_3 = P_2 = 200
-$$
+$$  
+
 $$
 -5R_1 - 5R_2 + 22R_3 = P_3 = 300
-$$
+$$  
 
 Calcular as tensões nominais de cada reator.
 
@@ -63,13 +65,15 @@ Calcular as tensões nominais de cada reator.
 **Resposta aproximada:**
 $$
 R_1 = 33{,}996314
-$$
+$$  
+
 $$
 R_2 = 18{,}892827
-$$
+$$  
+
 $$
 R_3 = 13{,}383896
-$$
+$$  
 
 <br />
 
@@ -116,8 +120,13 @@ $$
 
 Num sistema de energia solar, um vetor de equilíbrio energético $E$, na placa absorvente e na placa de vidro, segue o seguinte sistema de equações não lineares nas temperaturas absolutas $(K/m^2)$:
 
-$(T_1^4 + 0,06823T_1) - (T_2^4 + 0,05848T_2) = E_1$  
-$(T_1^4 + 0,05848T_1) - (2T_2^4 + 0,11696T_2) = E_2$
+$$
+(T_1^4 + 0,06823T_1) - (T_2^4 + 0,05848T_2) = E_1
+$$    
+
+$$
+(T_1^4 + 0,05848T_1) - (2T_2^4 + 0,11696T_2) = E_2
+$$  
 
 Calcule o valor aproximado das temperaturas de equilíbrio, sabendo que os valores de equilíbrio energético foram medidos experimentalmente em:  
 
@@ -127,7 +136,8 @@ $E_1 = 0,01753$ e $E_2 = 0,00254$.
 **Resposta aproximada:**
 $$
 T_1 = 0,30543
-$$
+$$  
+
 $$ 
 T_2 = 0,185261
-$$
+$$  
