@@ -25,7 +25,7 @@ Crie os arquivos da atividade de modo separado.
 
 ## Atividade 1
 Para economizar energia elétrica, um agricultor implantou um sistema de painel solar na fazenda para alimentar uma bomba d’água, que faz a irrigação das plantações.  
-A placa negra utilizada fica exposta ao sol e ao vento. Dessa forma, para gerar eletricidade, a **irradiação solar** $E$ (em $\text{W/m}^2$) sobre a placa tem que ser maior que a perda de calor por radiação e por condução, dada pela temperatura atmosférica $K$ (em Kelvin).
+A placa negra utilizada fica exposta ao sol e ao vento. Dessa forma, para gerar eletricidade, a irradiação solar $E$ (em $\text{W/m}^2$) sobre a placa tem que ser maior que a perda de calor por radiação e por condução, dada pela temperatura atmosférica $K$ (em Kelvin).
 
 A equação é dada por:
 
