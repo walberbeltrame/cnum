@@ -61,7 +61,6 @@ Calcular as tensões nominais de cada reator.
 
 **Sugestão:** usar o método de Gauss-Seidel.  
 **Resposta aproximada:**
-
 $$
 R_1 = 33{,}996314
 $$
@@ -107,7 +106,6 @@ $$
 **Sugestão:** usar o método de Gauss-Seidel.
 
 **Resposta aproximada:**
-
 $$
 I_{R3} = 6{,}6667\,A
 $$
@@ -127,6 +125,9 @@ $E_1 = 0,01753$ e $E_2 = 0,00254$.
 
 **Sugestão:** usar o método de Newton-Raphson.  
 **Resposta aproximada:**
-
-$T_1 = 0,30543$  
-$T_2 = 0,185261$
+$$
+T_1 = 0,30543
+$$
+$$ 
+T_2 = 0,185261
+$$
