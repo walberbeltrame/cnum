@@ -45,8 +45,7 @@ $$
 <br/>
 
 ## Aividade 2
-Em um grande hospital, para evitar intermitência no sistema elétrico dos diversos equipamentos médicos, instalou-se três reatores de alta performance em série,  
-com tensão nominal $R$ em função da potência máxima $P$ de operação dos enrolamentos de controle:
+Em um grande hospital, para evitar intermitência no sistema elétrico dos diversos equipamentos médicos, instalou-se três reatores de alta performance em série, com tensão nominal $R$ em função da potência máxima $P$ de operação dos enrolamentos de controle:
 
 $$
 17R_1 - 2R_2 - 3R_3 = P_1 = 500
