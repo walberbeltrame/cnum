@@ -44,7 +44,7 @@ $$
 
 <br/>
 
-## Aividade 2
+## Atividade 2
 Em um grande hospital, para evitar intermitência no sistema elétrico dos diversos equipamentos médicos, instalou-se três reatores de alta performance em série, com tensão nominal $R$ em função da potência máxima $P$ de operação dos enrolamentos de controle:
 
 $$
