@@ -112,7 +112,6 @@ f(x)=\sum_{i=0}^{3} y_i
 \prod_{\substack{j=0 \\ j\ne i}}^{3}\frac{x-x_j}{x_i-x_j}
 \quad\text{com}\quad
 (x_0,y_0)=(-2,-47),\ (x_1,y_1)=(0,-3),\ (x_2,y_2)=(1,4),\ (x_3,y_3)=(2,41).
-\tag{Lagrange}
 $$
 
 $$
@@ -122,7 +121,8 @@ f(x)=\;&
 \;-\;\frac{3}{4}\,(x+2)(x-1)(x-2)
 \;-\;\frac{4}{3}\,(x+2)\,x\,(x-2)
 \;+\;\frac{41}{8}\,(x+2)\,x\,(x-1).
-\end{aligned}
+\end{aligned}  
+\tag{Lagrange}
 $$
 
 $$
