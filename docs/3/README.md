@@ -1,4 +1,4 @@
-# 3 - Erro com pontos flutuantes
+# 03 - Erro com pontos flutuantes
 Vamos aprender sobre como usar os erros de ponto flutuante para resolução de problemas numéricos.
 
 Crie uma nova branch (versão) do repositório:

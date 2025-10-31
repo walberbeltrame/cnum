@@ -1,4 +1,4 @@
-# 2 - Linguagem de programação
+# 02 - Linguagem de programação
 Vamos aprender sobre estruturas de controle, instalação de bibliotecas e geração de gráficos, por meio de atividades práticas.
 
 A partir de agora, vamos usar um ambiente virtual para execução dos nossos códigos.

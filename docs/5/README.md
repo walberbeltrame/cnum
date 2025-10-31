@@ -1,4 +1,4 @@
-# 5 - Métodos de ponto fixo
+# 05 - Métodos de ponto fixo
 Vamos aprender sobre como usar os métodos de ponto fixo para encontrar as raízes de funções reais.
 
 Crie uma nova branch (versão) do repositório:

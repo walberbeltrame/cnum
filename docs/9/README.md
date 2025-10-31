@@ -1,4 +1,4 @@
-# 9 - Interpolação
+# 09 - Interpolação
 Vamos aprender sobre como usar aproximação de funções que permite construir um novo conjunto de dados a partir de um conjunto discreto de dados pontuais previamente conhecidos.
 
 Crie uma nova branch (versão) do repositório:

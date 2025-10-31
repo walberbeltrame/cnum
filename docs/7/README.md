@@ -1,4 +1,4 @@
-# 7 - Sistemas não lineares
+# 07 - Sistemas não lineares
 Vamos aprender sobre como usar o método iterativo de Newton-Raphson adaptado aos sistemas de equações, envolvendo aproximações iniciais, cálculo da matriz do Jacobiano e critério de parada, para resolução de sistemas não lineares.
 
 Crie uma nova branch (versão) do repositório:

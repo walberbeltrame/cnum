@@ -1,4 +1,4 @@
-# 4 - Método da bisseção
+# 04 - Método da bisseção
 Vamos aprender sobre como usar o método da bisseção para encontrar as raízes de funções reais.
 
 Crie uma nova branch (versão) do repositório:
