@@ -1,4 +1,4 @@
-# 02 - Linguagem de programação
+# 02 - Estruturas de controle
 Vamos aprender sobre estruturas de controle, instalação de bibliotecas e geração de gráficos, por meio de atividades práticas.
 
 A partir de agora, vamos usar um ambiente virtual para execução dos nossos códigos.
