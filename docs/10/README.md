@@ -45,7 +45,7 @@ Em seguida, desenhe um gráfico com os pontos e o esboço da função ajustada.
 **Resposta esperada:**
 
 $$
-f(x) = 0.19 - 0.47x
+f(x) = -0.47x + 0.19
 $$
 
 Gabarito
@@ -104,7 +104,7 @@ Encontre a função linear $f(x) = a_1 + a_2x$ que melhor se ajusta aos pontos d
 **Resposta esperada:**
 
 $$
-f(x) = -0.53362743 -0.06891127x
+f(x) = -0.06891127x -0.53362743 
 $$
 
 $$
