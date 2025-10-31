@@ -70,7 +70,87 @@ def main():
 
     plot(x, y, 1)
 
+    # Atividade 2
+    print("-- Atividade 2 --")
+
+    x = np.array([-1.0, 0.5, 1.0, 1.25], dtype=float)
+    y = np.array([1.25, 0.5, 1.25, 1.8125], dtype=float)
+
+    xr = np.array([-0.5, 0.0, 0.25], dtype=float)
+
+    p = newton(x, y)
+    yn = np.polyval(p, xr)
+
+    p = lagrange(x, y)
+    yl = np.polyval(p, xr)
+
+    p = polinomial(x, y)
+    yp = np.polyval(p, xr)
+
+    spline = CubicSpline(x, y, bc_type="natural")
+    ys = spline(xr)
+
+    for xi, n, l, p, s in zip(xr, yn, yl, yp, ys):
+        print(f"x = {xi:>4}:  N={n: .6f} | L={l: .6f} | P={p: .6f} | S={s: .6f}")
+
+    plot(x, y, 2)
+
+    # Atividade 3a
+    print("-- Atividade 3a --")
+
+    x = np.array([-50.0, -5.0, 5.0, 75.0], dtype=float)
+    y = np.array([-300.0, -50.0, 180.0, 350.0], dtype=float)
+
+    xr = np.array([0.0], dtype=float)
+
+    p = newton(x, y)
+    yn = np.polyval(p, xr)
+
+    p = lagrange(x, y)
+    yl = np.polyval(p, xr)
+
+    p = polinomial(x, y)
+    yp = np.polyval(p, xr)
+
+    spline = CubicSpline(x, y, bc_type="natural")
+    ys = spline(xr)
+
+    for xi, n, l, p, s in zip(xr, yn, yl, yp, ys):
+        print(f"x = {xi:>4}:  N={n: .6f} | L={l: .6f} | P={p: .6f} | S={s: .6f}")
+
+    plot(x, y, 3)
+
+    # Atividade 3b
+    print("-- Atividade 3b --")
+
+    x = np.array(
+        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        dtype=float,
+    )
+    y = np.array(
+        [80, -60, 40, -30, 20, -10, 5, -2.5, 1.25, -0.625, 0.3125],
+        dtype=float,
+    )
+
+    xr = np.array([8.5], dtype=float)
+
+    p = newton(x, y)
+    yn = np.polyval(p, xr)
+
+    p = lagrange(x, y)
+    yl = np.polyval(p, xr)
+
+    p = polinomial(x, y)
+    yp = np.polyval(p, xr)
+
+    spline = CubicSpline(x, y, bc_type="natural")
+    ys = spline(xr)
+
+    for xi, n, l, p, s in zip(xr, yn, yl, yp, ys):
+        print(f"x = {xi:>4}:  N={n: .6f} | L={l: .6f} | P={p: .6f} | S={s: .6f}")
+
+    plot(x, y, 4)
+
 
 if __name__ == "__main__":
     main()
-
